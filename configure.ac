@@ -2,7 +2,7 @@ dnl                                               -*- Autoconf -*-
 dnl Process this file with autoconf to produce a configure script.
 dnl
 dnl
-AC_PREREQ([2.72])
+AC_PREREQ([2.5])
 AC_INIT([nebula],[0.5],[rmottola@users.sourceforge.net])
 AM_INIT_AUTOMAKE([1.8.5])
 AC_CONFIG_SRCDIR([interpreter.c])
