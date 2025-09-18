@@ -328,9 +328,9 @@ int main (int argc, char *argv[])
 /* saves the text in the conversation window */
 void fileMenuCall(Widget w, XtPointer clientData, XtPointer callData)
 {
-    int itemNum;
+    intptr_t itemNum;
 
-    itemNum = (int) clientData;
+    itemNum = (intptr_t) clientData;
     switch (itemNum)
     {
     case 0:
@@ -349,9 +349,9 @@ void fileMenuCall(Widget w, XtPointer clientData, XtPointer callData)
 
 void helpMenuCall(Widget w, XtPointer clientData, XtPointer callData)
 {
-    int itemNum;
+    intptr_t itemNum;
     
-    itemNum = (int) clientData;
+    itemNum = (intptr_t) clientData;
     switch (itemNum)
     {
     case 0:
@@ -367,7 +367,7 @@ void helpMenuCall(Widget w, XtPointer clientData, XtPointer callData)
 
 void userMenuCall(Widget w, XtPointer clientData, XtPointer callData)
 {
-    int itemNum;
+    intptr_t itemNum;
     
 #ifdef DEBUG    
     printf("user: %s\n", selectedUser);
@@ -375,7 +375,7 @@ void userMenuCall(Widget w, XtPointer clientData, XtPointer callData)
     if (selectedUser == NULL)
     	return;
     
-    itemNum = (int) clientData;
+    itemNum = (intptr_t) clientData;
     switch (itemNum)
     {
     case 0:

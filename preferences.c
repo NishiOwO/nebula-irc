@@ -52,6 +52,7 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <Xm/MessageB.h>
 
 #include "main.h"
+#include "network.h"
 #include "preferences.h"
 
 #ifndef XmFONTLIST_DEFAULT_TAG
